@@ -1,0 +1,91 @@
+//============================================
+// Name         : CS 300 Project Two
+// Author       : Cori-Leigh Diggs
+// Version      : 1.0
+// Description  : Project Two
+
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <stdlib.h>
+#include <sstream>
+#include <algorithm>
+
+using namespace std;
+
+// define a structure for course info
+class Course
+{
+    string course;
+    string courseNumber;
+    string courseTitle;
+    vector<string> prerequisites;
+
+    Course() = default;
+
+    struct CreateCourseObject(courseNumber, courseTitle, prerequisites)
+    {
+        // create new course object
+        newCourse = new courseObject;
+
+        // set instance variables with provided data
+        newCourse.courseNumber = courseNumber;
+        newCourse.courseTitle = courseTitle;
+        newCourse.prerequisites = prerequisites;
+
+        return newCourse;
+    }
+}
+
+// Load file data
+void ReadFile()
+{
+    // define file
+    string filename;
+
+    // get filename
+    filename = "ABCU_Advising_Program_Input.txt";
+
+    // open file
+    ifstream infile;
+    infile.open(filename);
+
+    // while file is found
+    if (infile.is_open())
+    {
+        string line
+
+            // read file line by line
+            while (getline(token, ','))
+        {
+            tokens = split(line, ',');
+
+            courseNumber = tokens[0];
+            courseTitle = tokens[1];
+            prerequisites = tokens [2:]; // any remaining tokens are prerequisites
+        }
+
+    // validate prerequisites
+    SKNG:
+        EIKBNVSRT
+    }
+
+    // if file not found, print error message
+    else
+    {
+        cout << "Error: file not found" << endl;
+    }
+}
+
+void hashTable
+{
+    new course.Nodes
+        string courseNumber;
+    string courseTitle;
+    string prerequisites;
+
+    prerequisites = 0;
+
+    temp *node;
+}
